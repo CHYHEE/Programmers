@@ -1,3 +1,9 @@
+//대소문자 바꿔서 출력하기
+
+// charAt() → 문자열에서 한 글자만 변환해서 출력
+// Character.isUpperCase() → 대문자인 경우 true, 소문자인 경우 false를 반환
+// Character.toLowerCase() → 소문자인 경우 true, 대문자인 경우 false를 반환
+
 import java.util.Scanner;
 
 public class Solution {
