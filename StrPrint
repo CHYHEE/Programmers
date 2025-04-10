@@ -1,0 +1,11 @@
+//문자열 str가 주어질 때, str를 출력하는 코드
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        System.out.println(str);
+    }
+}
