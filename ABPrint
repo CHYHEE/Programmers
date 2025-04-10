@@ -1,0 +1,14 @@
+//a와 b를 입력 받아 형식에 맞게 출력
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
