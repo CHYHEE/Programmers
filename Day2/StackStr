@@ -1,0 +1,13 @@
+// 문자열 겹쳐쓰기
+//원본의 길이보다 answer의 길이가 짧을 때 answer 이후의 원본 그대로 가져오기
+
+class Solution {
+    public String solution(String my_string, String overwrite_string, int s) {
+        String answer = my_string.substring(0, s) + overwrite_string;
+        
+        if(my_string.length() > answer.length()) {
+            answer += my_string.substring(answer.length());
+        }
+        return answer;
+    }
+}
