@@ -1,3 +1,4 @@
+//문자열 섞기
 //charAt: 문자를 한 글자씩 출력
 
 class Solution {
