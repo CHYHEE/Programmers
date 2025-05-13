@@ -1,0 +1,26 @@
+//배열 만들기2
+
+import java.util.*;
+
+class Solution {
+    public List solution(int l, int r) {
+        List<Integer> answer = new ArrayList<>();
+        
+        for(int i=l; i<=r; i++) {
+            String s = i + "";  //i가 어떤 숫자든 간에 + ""를 붙이면 문자열이 된다
+            boolean bool = true;
+            for(char c : s.toCharArray()) {
+                if(c!='0' && c!='5') {
+                    bool = false;
+                }
+            }
+            if(bool) {
+                answer.add(i);
+            }
+        }
+        if(answer.isEmpty()) {
+            answer.add(-1);
+        }
+        return answer;
+    }
+}
