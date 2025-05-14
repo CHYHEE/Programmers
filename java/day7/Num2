@@ -24,3 +24,8 @@ class Solution {
         return answer;
     }
 }
+
+
+[복습]
+//숫자 i가 0과 5로만 구성되어 있는지 여부 확인하려고 사용
+//isEmpty(): 문자열이 빈 값이면 true, 비어있지 않으면 false
