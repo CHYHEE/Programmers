@@ -2,18 +2,18 @@
 
 class Solution {
     public String solution(String my_string, int[][] queries) {
-        char answer = my_string.toCharArray();
+        char[] answer = my_string.toCharArray();
         
         for(int i=0; i<queries.length; i++) {
             int start = queries[i][0];
             int end = queries[i][1];
-            for(j=start; j<=(start+end)/2; j++) {
-                char temp = arr[j];
-                arr[j] = arr[star+end-j];
-                arr[start+end-j]=temp;
+            for(int j=start; j<=(start+end)/2; j++) {
+                char temp = answer[j];
+                answer[j] = answer[start+end-j];
+                answer[start+end-j]=temp;
             }
         }
         
-        return String(answer);
+        return new String(answer);
     }
 }
