@@ -1,4 +1,6 @@
+//복습필요
 class Solution {
+// 80점 코드
 //     public int solution(int balls, int share) {
 //         long n1 = 1;
 //         long m1 = 1;
